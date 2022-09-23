@@ -1,12 +1,14 @@
 header {
-  color:black;
+  color:#6c6060;
   text-align: center;
+  width: 100%;
   font-family: 'helvetica';
   font-size: 100px;
-}
-
-.Apple {
-  text-align: center;
+  background-color: #ffffff;
+  padding: 0px;
+  align-items: center;
+  display: flex;
+  flex-direction:column;
 }
 
 div {
@@ -15,6 +17,8 @@ div {
 .topnav {
   background-color: #496969;
   overflow: hidden;
+  box-shadow: 5px 5px;
+  
   
 }
 .topnav a {
@@ -24,4 +28,12 @@ div {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: sans-serif
+  
+}
+a:hover {
+  color: rgb(180, 175, 175);
+}
+body {
+  margin: 0px;
 }
