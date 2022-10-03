@@ -1,23 +1,24 @@
 header {
-  color:#6c6060;
-  
-  width: 100%;
+  color:#6c6060; 
   font-family: 'helvetica';
   font-size: 100px;
-  background-color: #ffffff;
+  background-color: white;
   padding: 0px;
   align-items: center;
   display: flex;
   flex-direction:column;
+
 }
 
 div {
   font-family: 'helvetica';
+  font-size: 25px;
 }
 .topnav {
   background-color: #496969;
   overflow: hidden;
-  box-shadow: 5px 5px;
+  width: 100%;
+  border-top: 1px;
   
   
 }
@@ -25,9 +26,9 @@ div {
   float:left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 3px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
   font-family: sans-serif
   
 }
@@ -36,4 +37,13 @@ a:hover {
 }
 body {
   margin: 0px;
+
+
+}
+h1 {
+  text-align: center;
+  width: 100%;
+}
+p {
+  
 }
