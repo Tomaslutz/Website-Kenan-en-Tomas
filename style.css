@@ -7,7 +7,7 @@ header {
   align-items: center;
   display: flex;
   flex-direction:column;
-
+  box-shadow: 3px 3px 3px black;
 }
 
 div {
@@ -15,12 +15,15 @@ div {
   font-size: 25px;
 }
 .topnav {
+    display: flex;
   background-color: #496969;
   overflow: hidden;
   width: 100%;
   border-top: 1px;
+  position: fixed;
+  top:0px;
   
-  
+
 }
 .topnav a {
   float:left;
@@ -47,3 +50,6 @@ h1 {
 p {
   
 }
+
+
+
