@@ -7,9 +7,8 @@ header {
   align-items: center;
   display: flex;
   flex-direction:column;
-  box-shadow: 3px 3px 3px black;
+  margin-top: 50px;
 }
-
 div {
   font-family: 'helvetica';
   font-size: 25px;
@@ -22,6 +21,7 @@ div {
   border-top: 1px;
   position: fixed;
   top:0px;
+      box-shadow: 2px 4px 8px 2px #00000042;
   
 
 }
@@ -47,9 +47,74 @@ h1 {
   text-align: center;
   width: 100%;
 }
-p {
+h2 {
+  text-align: center;
+  width: 100%;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.homepage-background {
+  z-index:-1;
+  position:absolute;
+  
   
 }
 
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000;
+}
 
+.button1:hover {
+  background-color:white;
+  color: black;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000;
+}
+
+.button2:hover {
+  background-color: #000;
+  color: white;
+}
