@@ -2,12 +2,13 @@ header {
   color:#6c6060; 
   font-family: 'helvetica';
   font-size: 100px;
-  background-color: white;
+  background-color: transparent;
   padding: 0px;
   align-items: center;
   display: flex;
   flex-direction:column;
   margin-top: 50px;
+  position: absolute;
 }
 div {
   font-family: 'helvetica';
@@ -21,7 +22,9 @@ div {
   border-top: 1px;
   position: fixed;
   top:0px;
-      box-shadow: 2px 4px 8px 2px #00000042;
+  box-shadow: 2px 4px 8px 2px #00000042;
+  z-index: 2;
+  
   
 
 }
@@ -77,11 +80,16 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
-.homepage-background {
+.Homepage-background {
   z-index:-1;
   position:absolute;
+  width:200%;
+}
+.yt-video {
   
-  
+}
+.Homepage-text {
+  color: purple;
 }
 
 .button {
@@ -117,4 +125,12 @@ input[type=submit]:hover {
 .button2:hover {
   background-color: #000;
   color: white;
+}
+
+.Dark mode{
+  background-color: #000;
+}
+
+.Dark mode div{
+  text-colro
 }
