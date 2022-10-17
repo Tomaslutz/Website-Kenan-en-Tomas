@@ -1,0 +1,29 @@
+div {
+  font-family: 'helvetica';
+  font-size: 25px;
+
+.topnav {
+  display: flex;
+  background-color: #496969;
+  overflow: hidden;
+  width: 100%;
+  border-top: 1px;
+  position: fixed;
+  top:0px;
+  box-shadow: 2px 4px 8px 2px #00000042;
+  z-index: 2;
+
+  .topnav a {
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif
+
+  a:hover {
+  color: rgb(180, 175, 175);
+
+    body {
+  margin: 0px;
